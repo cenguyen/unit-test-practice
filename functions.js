@@ -11,8 +11,17 @@ function sayHello(name) {
     }
 }
 
+function buildCar(color, type) {
+    let car = {color, type}
+    if (!color && !type) {
+        return {}
+    } else {
+        return car;
+    }
+}
+
 module.exports = {
     addTwoNumbers,
     sayHello,
-    // buildCar
+    buildCar
 }

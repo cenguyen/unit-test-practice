@@ -73,7 +73,7 @@ describe('functions', function() {
   })
 
   describe('buildCar', function() {
-    it.skip('should return a car with a color', function() {
+    it('should return a car with a color', function() {
       // setup for test (if necessary)
       var color = 'red'
       
@@ -84,7 +84,7 @@ describe('functions', function() {
       assert.equal(result.color, color)
     })
 
-    it.skip('should return a car with a type', function() {
+    it('should return a car with a type', function() {
       // setup for test (if necessary)
       var color = 'red'
       var type = 'truck'
@@ -96,7 +96,7 @@ describe('functions', function() {
       assert.equal(result.type, type)
     })
 
-    it.skip('should return an empty object if there are no details passed', function() {
+    it('should return an empty object if there are no details passed', function() {
       // setup for test (if necessary)
       
       // execute function
