@@ -61,7 +61,7 @@ describe('functions', function() {
       assert.equal(result, 'Hi there Casey!')
     })
 
-    it.skip('should not be able to say hello to Will', function() {
+    it('should not be able to say hello to Will', function() {
       // setup for test (if necessary)
       
       // execute function

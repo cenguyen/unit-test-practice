@@ -4,7 +4,11 @@ function addTwoNumbers(num1, num2) {
 }
 
 function sayHello(name) {
-    return `Hi there ${name}!`;
+    if (name === 'Will') {
+        return `No more testing ${name}!`;
+    } else {
+        return `Hi there ${name}!`;
+    }
 }
 
 module.exports = {
