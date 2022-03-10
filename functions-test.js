@@ -41,7 +41,7 @@ describe('functions', function() {
   })
 
   describe('sayHello', function() {
-    it.skip('should be able to say hello to Leta', function() {
+    it('should be able to say hello to Leta', function() {
       // setup for test (if necessary)
       
       // execute function
@@ -51,7 +51,7 @@ describe('functions', function() {
       assert.equal(result, 'Hi there Leta!')
     })
 
-    it.skip('should be able to say hello to Casey', function() {
+    it('should be able to say hello to Casey', function() {
       // setup for test (if necessary)
       
       // execute function
